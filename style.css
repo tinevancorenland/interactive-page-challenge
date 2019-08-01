@@ -1,11 +1,36 @@
-.slideshow-wrapper {
-    width: 50%;
-    margin: auto;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.image {
+.slideshow-wrapper {
+    margin: auto;
+    width: 50%;
+    margin-top: 25px;
+    position: relative;
+}
+
+img {
     width: 600px;
     height: 400px;
     object-fit: cover;
 }
+
+.arrow {
+    top: 200px;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+}
+
+#previous {
+
+}
+
+#next {
+    left: 600px;
+}
+
+
+
 

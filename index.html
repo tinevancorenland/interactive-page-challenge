@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Sky is the Limit</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body onload="changeImg()">
     <header>
         <div class="slideshow-wrapper">
             <figure class="fade">
                 <img name="slide">
+                <figcaption name="caption"></figcaption>
                 <!--<figcaption>Photo from above</figcaption>-->
             </figure>
            <!--<figure class="MySlides fade">
@@ -19,7 +21,10 @@
                 <img class="image" src="./img/SpaceStationOverBelgium.jpeg">
                 <figcaption>Belgium from Above</figcaption>
             </figure>-->
+            <a class="arrow" id="previous" onclick="">&#10094</a>
+            <a class="arrow" id="next" onclick="">&#10095</a>
         </div>
     </header>
+    <script src="script.js"></script>
 </body>
 </html>
