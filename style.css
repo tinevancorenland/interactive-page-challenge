@@ -125,6 +125,7 @@ article {
     border: 3px solid;
     padding: 5px;
     border-top-right-radius: 10px;
+    display: none;
 
 }
 
