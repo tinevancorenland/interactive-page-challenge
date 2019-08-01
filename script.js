@@ -43,7 +43,7 @@ function previousImg() {
 
 // Tabs
 
-function openTab(evt, tabName) {
+function openTab(event, tabName) {
     var tabContent = document.getElementsByClassName("infoContainer");
     for (var i = 0; i < tabContent.length; i++) {
         tabContent[i].style.display = "none";
@@ -55,5 +55,5 @@ function openTab(evt, tabName) {
     }
 
     document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.className += " active";
+    event.currentTarget.className += " active";
 }
