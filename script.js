@@ -16,7 +16,7 @@ var next = document.getElementById("next");
 next.addEventListener("click", nextImg);
 
 function nextImg() {
-    document.slide.src = images[i];
+    document.getElementById("slide").src = images[i];
 
     if(i < images.length - 1){
         i++;
@@ -30,7 +30,7 @@ var previous = document.getElementById("previous");
 previous.addEventListener("click", previousImg);
 
 function previousImg() {
-    document.slide.src = images[i];
+    document.getElementById("slide").src = images[i];
 
     if(i < images.length - 1){
         i--;
