@@ -6,13 +6,12 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body onload="changeImg()">
-    <header>
-        <div class="slideshow-wrapper">
-            <figure class="fade">
+    <header class="slideshow-wrapper">
+            <figure>
                 <img name="slide">
                 <figcaption name="caption"></figcaption>
                 <!--<figcaption>Photo from above</figcaption>-->
-            </figure>
+ git            </figure>
            <!--<figure class="MySlides fade">
                 <img class="image" src="./img/Astronaut.jpeg">
                 <figcaption>Photo from above</figcaption>
@@ -21,15 +20,14 @@
                 <img class="image" src="./img/SpaceStationOverBelgium.jpeg">
                 <figcaption>Belgium from Above</figcaption>
             </figure>-->
-            <a class="arrow" id="previous" onclick="">&#10094</a>
-            <a class="arrow" id="next" onclick="">&#10095</a>
-        </div>
+            <a class="arrow" id="previous">&#10094</a>
+            <a class="arrow" id="next">&#10095</a>
     </header>
     <main>
         <nav class="flexNav">
-            <button class="summary" onclick="openInfo('Summmary')">Summary</button>
-            <button class="practicalinfo" onclick="openInfo('Practical Information')">Pratical Information</button>
-            <button class="contactinfo" onclick="openInfo('Contact Infomation')">Contact Infomation</button>
+            <button class="summary">Summary</button>
+            <button class="practicalinfo">Pratical Information</button>
+            <button class="contactinfo">Contact Infomation</button>
         </nav>
         <section class="INFO">
             <div id="Summary" class="infoContainer">
@@ -43,6 +41,8 @@
 
             <div id="ContactInfo" class="infoContainer" style="display:none">
                 <h2>Contact Information</h2>
+                <p>Where to meet, or send a question!</p>
+
         </section>
     </main>
     <script src="script.js"></script>
