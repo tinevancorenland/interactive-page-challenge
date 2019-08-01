@@ -1,26 +1,29 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
     background-color: #EEEEEE;
-}
-
-.slideshow-wrapper {
     margin: auto;
-    width: 50%;
     padding-top: 40px;
     padding-bottom: 40px;
     position: relative;
 }
+figure {
+    margin: auto;
+    width: 600px;
+    height: 400px;
+}
 
 img {
+    margin: auto;
     width: 600px;
     height: 400px;
     object-fit: cover;
     border-radius: 20%;
-    border: 5px inset;
+    border: 5px solid #444444;
 }
 
 .arrow {
