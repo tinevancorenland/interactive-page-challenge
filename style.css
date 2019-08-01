@@ -5,6 +5,7 @@
 }
 
 header {
+    display: inline-block;
     background-color: #EEEEEE;
     margin: auto;
     padding-top: 40px;
@@ -27,19 +28,18 @@ img {
 }
 
 .arrow {
-    position: absolute;
     top: 200px;
     cursor: pointer;
     color: black;
-    font-size: 300%;
+    font-size: 500%;
 }
 
 #previous {
-    left: -45px;
+    float: left;
 }
 
 #next {
-    left: 605px;
+    float: right;
 }
 
 nav {
