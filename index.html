@@ -5,7 +5,7 @@
     <title>Sky is the Limit</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body onload="changeImg()">
+<body onload="changeImg(), openTab(event, 'Summary')">
     <header class="slideshow-wrapper">
         <a class="arrow" id="previous">&#10094</a>
         <figure>
@@ -16,24 +16,28 @@
     </header>
     <main>
         <nav class="flexNav">
-            <button class="tablinks">Summary</button>
-            <button class="tablinks">Pratical Information</button>
-            <button class="tablinks">Contact Infomation</button>
+            <button class="tablinks" onclick="openTab(event, 'Summary')">Summary</button>
+            <button class="tablinks" onclick="openTab(event, 'PracticalInfo')">Practical Information</button>
+            <button class="tablinks" onclick="openTab(event, 'ContactInfo')">Contact Infomation</button>
         </nav>
-        <section class="INFO">
+        <article class="INFO">
             <div id="Summary" class="infoContainer">
                 <h2>Summary</h2>
-                <p>ISS is above Belgium!</p>
+                <p>ISS is above Belgium! By taking a look at our webpage that shares data direct from NASA, we offer you a chance to also witness accurately when the International Space Station will fly over Belgium.  No more waiting and looking in the wrong direction!</p>
             </div>
 
             <div id="PracticalInfo" class="infoContainer">
                 <h2>Practical Information</h2>
+                <table>
+                    <th></th>
+                </table>
+                <a href="http://www.isstracker.com/" target="_blank" title="Go to www.isstracker.com">Check out this website to check where ISS is now located</a>
             </div>
 
             <div id="ContactInfo" class="infoContainer">
                 <h2>Contact Information</h2>
                 <p>Where to meet, or send a question!</p>
-        </section>
+        </article>
     </main>
     <script src="script.js"></script>
 </body>
