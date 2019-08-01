@@ -1,0 +1,10 @@
+.slideshow-wrapper {
+    width: 50%;
+    margin: auto;
+}
+
+.image {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
