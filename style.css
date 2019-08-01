@@ -14,21 +14,33 @@ img {
     width: 600px;
     height: 400px;
     object-fit: cover;
+    border-radius: 20%;
 }
 
 .arrow {
-    top: 200px;
+    position: absolute;
+    top: 170px;
     cursor: pointer;
     color: black;
-    position: absolute;
+    font-size: 300%;
 }
 
 #previous {
-
+    left: -45px;
 }
 
 #next {
-    left: 600px;
+    left: 605px;
+}
+
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #4d81c6
+}
+
+section {
+    background-color: #EEEEEE;
 }
 
 
