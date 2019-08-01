@@ -3,10 +3,15 @@
     padding: 0;
 }
 
+header {
+    background-color: #EEEEEE;
+}
+
 .slideshow-wrapper {
     margin: auto;
     width: 50%;
-    margin-top: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     position: relative;
 }
 
@@ -15,11 +20,12 @@ img {
     height: 400px;
     object-fit: cover;
     border-radius: 20%;
+    border: 5px inset;
 }
 
 .arrow {
     position: absolute;
-    top: 170px;
+    top: 200px;
     cursor: pointer;
     color: black;
     font-size: 300%;
@@ -37,6 +43,16 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #4d81c6
+}
+
+.flexNav {
+    display: flex;
+}
+
+.flexNav > button {
+    flex: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 section {
